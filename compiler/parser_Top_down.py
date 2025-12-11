@@ -3,7 +3,7 @@ import os
 
 def read_tokens_from_file():
     tokens = []
-    file_path = r"C:\Users\Omar-PC\OneDrive\Desktop\compiler\test_tokens.txt"
+    file_path ="test_tokens.txt"
     
     if not os.path.exists(file_path):
         print(f"Error: File {file_path} not found.")
@@ -237,4 +237,5 @@ def main():
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
+
     main()
