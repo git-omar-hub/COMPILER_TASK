@@ -1,0 +1,43 @@
+#    TYPE                 VALUE
+==================================================
+1    KEYWORD              int
+2    KEYWORD              main
+3    SPECIAL_CHARACTER    (
+4    SPECIAL_CHARACTER    )
+5    SPECIAL_CHARACTER    {
+6    KEYWORD              int
+7    IDENTIFIER           x
+8    SPECIAL_CHARACTER    ,
+9    IDENTIFIER           y
+10   SPECIAL_CHARACTER    ;
+11   COMMENT              // This is a single-line comment
+12   KEYWORD              if
+13   SPECIAL_CHARACTER    (
+14   IDENTIFIER           x
+15   OPERATOR             ==
+16   NUMERIC_CONSTANT     42
+17   SPECIAL_CHARACTER    )
+18   SPECIAL_CHARACTER    {
+19   COMMENT              /* This is
+           a block
+           comment */
+20   IDENTIFIER           x
+21   OPERATOR             =
+22   IDENTIFIER           x
+23   OPERATOR             -
+24   NUMERIC_CONSTANT     3
+25   SPECIAL_CHARACTER    }
+26   KEYWORD              else
+27   SPECIAL_CHARACTER    {
+28   IDENTIFIER           y
+29   OPERATOR             =
+30   NUMERIC_CONSTANT     3.1
+31   SPECIAL_CHARACTER    ;
+32   COMMENT              // Another comment
+33   SPECIAL_CHARACTER    }
+34   KEYWORD              return
+35   NUMERIC_CONSTANT     0
+36   SPECIAL_CHARACTER    ;
+37   SPECIAL_CHARACTER    }
+==================================================
+Total tokens: 37
